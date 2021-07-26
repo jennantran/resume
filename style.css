@@ -81,6 +81,15 @@ span{
     margin-left: 20px;
 }
 
+.stack{
+    color: #618985;
+}
+
+i{
+    color: #618985;
+    width: 30px;
+    display: inline-block;
+}
 .projects{
     background-color: white;
     padding: 20px;
@@ -153,12 +162,12 @@ a.button1, a.button2, a.button3, a.button4{
 
 
 a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
-    color:#000000;
+    color:#618985;
     transition: border-width 0.6s linear;
 }
 
  a:hover {
-    border: 2px solid #333333;
+    border: 2px solid#618985;
     overflow: hidden;      
 }
 
