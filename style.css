@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7ff;
+    width: 100vw;
+}
+
+/********* header  *********/
+
+header{
+    border: 5px solid #495867;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    border-left: 0;
+    border-right: 0;
+
+}
+h1{
+    font-family: Helvetica sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 23px;
+}
+
+.location{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+p{
+    font-family: Helvetica;
+}
+.headShot{
+    width: 250px;
+    border-radius: 50%;
+    margin: 30px;
+    height: 260px;
+}
+
+.myInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display:flex;
+    flex-direction:row;
+}
+
+/****** first Column ****/
+.firstColumn{
+    width: 65vw;
+}
+
+.secondColumn{
+    width: 35vw;
+}
+
+.introduction{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.projects{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectName{
+    text-align: center;
+}
+.pic{
+    width: 500px;
+    height: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.pic {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+a.button1, a.button2, a.button3, a.button4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    border: 1px solid #FFFFFF;
+    margin: 1px 1px 1px 1px;
+    border-radius:0.12em;
+    text-decoration:none;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 20px;
+
+}
+
+
+a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+/****** second column ****/
+.skills{
+    background-color: white;
+    width: 28vw;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.bar{
+    background-image: linear-gradient(#495867, #bdd5ea);
+    border-radius: 20px;
+    height: 2vh;
+}
+
+.education{
+    background-color: white;
+    width: 28vw;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
