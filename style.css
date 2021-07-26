@@ -10,7 +10,7 @@ body{
 /********* header  *********/
 
 header{
-    border: 5px solid #495867;
+    border: 5px solid #414535;
     margin: 8px;
     display: flex;
     flex-direction: row;
@@ -24,6 +24,7 @@ header{
 h1{
     font-family: Helvetica sans-serif;
     font-size: 45px;
+    color: #414535;
 }
 
 h2{
@@ -64,6 +65,9 @@ p{
     width: 65vw;
 }
 
+span{
+    color: #414535;
+}
 .secondColumn{
     width: 35vw;
 }
@@ -89,6 +93,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .projectName{
@@ -136,26 +141,38 @@ p{
 }
 
 a.button1, a.button2, a.button3, a.button4{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    padding: 15px;
-    border: 1px solid #FFFFFF;
-    margin: 1px 1px 1px 1px;
-    border-radius:0.12em;
+    padding: 10px;
     text-decoration:none;
     color: black;
     text-align: center;
     transition: all 0.2s;
-    margin: 20px;
-
+    margin-left: auto;
+    margin-right:auto;
 }
 
 
 a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
     color:#000000;
-    background-color:#FFFFFF;
+    transition: border-width 0.6s linear;
+}
+
+ a:hover {
+    border: 2px solid #333333;
+    overflow: hidden;      
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.divide{
+    font-size: 30px;
+}
+a.prev, a.next{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /****** second column ****/
@@ -171,7 +188,7 @@ a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
 }
 
 .bar{
-    background-image: linear-gradient(#495867, #bdd5ea);
+    background-image: linear-gradient(#618985, #bdd5ea);
     border-radius: 20px;
     height: 2vh;
 }
@@ -184,4 +201,9 @@ a.button1:hover, a.button2:hover, a.button3:hover, a.button4:hover{
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
 }

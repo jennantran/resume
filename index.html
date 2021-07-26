@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jennifer T</title>
+    <title>Jennifer Tran</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>  
     <header>
@@ -12,6 +13,7 @@
         <div class='myInfo'>
             <h1>Jennifer An Tran</h1>
             <h2>Front-End Developer, SEO Specialist</h2>
+            <i class="fas fa-map-pin"></i>
             <p class='location'>Austin, Texas</p>
         </div>
     </header>
@@ -25,11 +27,11 @@
                         in the form of an application or website. What enhances the fun in coding is working with a team of great programmers that can share their coding prowess. It is legitimately just like a group puzzle game.
                     <br>
                     <br>
-                
                         Outside of coding, I enjoy hiking, meeting new people, and thrifting. I am 
                         always striving to learn something new, every day. The tech industry is nothing 
                         but short of it. 
                     </p>
+                    <p>Feel free to reach me at jennantran@gmail.com</p>
                 </section>
                 <section class='projects'>
                     <h2>Projects</h3>
@@ -47,9 +49,12 @@
                         </div>
                          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
                          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                         <a href="https://github.com/jennantran/motionlogs-app" target="_blank" class="button1">GitHub</a>
-                         <a href="https://motionlogs-app.vercel.app/" target="_blank" class="button1">Live Link</a>
-                 </div>
+                         <div class='links'>
+                            <a href="https://github.com/jennantran/motionlogs-app" target="_blank" class="button1">GitHub</a>
+                            <span class='divide'>|</span>
+                            <a href="https://motionlogs-app.vercel.app/" target="_blank" class="button1">Live Link</a>
+                        </div>
+                        </div>
                 <h3 class='projectName'>JustTourIt</h3>
                 <p class='summary'> LetsTourIt app is a <span class='stack'> MERN stack</span> application where users can search up places near their current location. The user can favorite a place so that they can refer to it later. Whenever traveling, I want to be able to know what places to visit on demand.</p>
                 <div class="slideshow-container">
@@ -67,9 +72,11 @@
                 
                   <a class="prevTour" onclick="plusSlides(-1, 1)">&#10094;</a>
                   <a class="nextTour" onclick="plusSlides(1, 1)">&#10095;</a>
-                
-                  <a href="https://github.com/jennantran/letstourit-app" target="_blank" class="button2">GitHub</a>
-                  <a href="https://letstourit.jennantran.vercel.app" target="_blank" class="button2">Live Link</a>
+                <div class='links'>
+                    <a href="https://github.com/jennantran/letstourit-app" target="_blank" class="button2">GitHub</a>
+                    <span class='divide'>|</span>
+                    <a href="https://letstourit.jennantran.vercel.app" target="_blank" class="button2">Live Link</a>
+                </div>
                 </div>
                 
                 <h3 class='projectName'>CookEasy</h3>
@@ -84,11 +91,15 @@
                     <div class="mySlides3">
                         <img src="image/recipe-3.png" alt="Recipe App" class="recipe pic">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-                
-                    <a href="https://github.com/jennantran/CookEasy/" target="_blank" class="button3">GitHub</a>
-                    <a href="https://jennantran.github.io/CookEasy/" target="_blank" class="button3">Live Link</a>
+                    <div class='slides'>
+                        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                        <span class='divide'>|</span>
+                        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                    </div>
+                    <div class='links'>
+                        <a href="https://github.com/jennantran/CookEasy/" target="_blank" class="button3">GitHub</a>
+                        <a href="https://jennantran.github.io/CookEasy/" target="_blank" class="button3">Live Link</a>
+                    </div>
                 </div>
                 
                 <h3 class='projectName'>Bts Quiz</h3>
@@ -103,11 +114,15 @@
                     <div class="mySlides4">
                         <img src="image/Bts-3.png" alt="Bts App" class="bts pic">
                     </div>
-                    <a class="prevBts" onclick="plusSlides(-1, 3)">&#10094;</a>
-                    <a class="nextBts" onclick="plusSlides(1, 3)">&#10095;</a>
-                
-                    <a href="https://github.com/jennantran/btsquiz" target="_blank" class="button4">GitHub</a>
-                    <a href="http://jt-thinkful.surge.sh/" target="_blank" class="button4">Live Link</a>
+                    <div class='links'> 
+                        <a class="prevBts" onclick="plusSlides(-1, 3)">&#10094;</a>
+                        <a class="nextBts" onclick="plusSlides(1, 3)">&#10095;</a>
+                    </div>
+                    <div class='links'>
+                        <a href="https://github.com/jennantran/btsquiz" target="_blank" class="button4">GitHub</a>
+                        <span class='divide'>|</span>
+                        <a href="http://jt-thinkful.surge.sh/" target="_blank" class="button4">Live Link</a>
+                     </div>
                 </div>
                 </section>
             </div>
@@ -140,7 +155,7 @@
                     </div>
                 </section>
                 <section class='education'>
-                    <h3>Education:</h3>
+                    <h2>Education:</h2>
                     <p>Full-stack Engineering - Thinkful</p>
                     <p>MS Operations Management - University of Arkansas</p>
                     <p>BS Biochemistry - University of Arkansas</p>
@@ -148,6 +163,7 @@
                 </section>
             </div>
         </div>
+        <footer>Jennifer Tran 2021</footer>
     </main>
 </body>
 <script src="script.js"></script>
