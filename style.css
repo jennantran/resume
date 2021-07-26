@@ -13,20 +13,25 @@ header{
     border: 5px solid #414535;
     margin: 8px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: left;
     border-left: 0;
     border-right: 0;
+    padding: 20px;
 
 }
 h1{
     font-family: Helvetica sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     color: #414535;
+    text-align: center;
 }
 
+.myInfo{
+    text-align: center;
+}
 h2{
     font-family: Helvetica, sans-serif;
     font-size: 25px;
@@ -43,6 +48,11 @@ h3{
 p{
     font-family: Helvetica;
 }
+.email{
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #618985;
+}
 .headShot{
     width: 250px;
     border-radius: 50%;
@@ -56,20 +66,19 @@ p{
 }
 
 .content{
-    display:flex;
-    flex-direction:row;
+    text-align: center;
 }
 
 /****** first Column ****/
 .firstColumn{
-    width: 65vw;
+    width: 98vw;
 }
 
 span{
     color: #414535;
 }
 .secondColumn{
-    width: 35vw;
+    width: 98vw;
 }
 
 .introduction{
@@ -78,7 +87,8 @@ span{
     border-radius: 10px;
     font-size: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .stack{
@@ -109,8 +119,8 @@ i{
     text-align: center;
 }
 .pic{
-    width: 500px;
-    height: 380px;
+    width: 300px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -187,7 +197,7 @@ a.prev, a.next{
 /****** second column ****/
 .skills{
     background-color: white;
-    width: 28vw;
+    width: 80vw;
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
@@ -204,15 +214,77 @@ a.prev, a.next{
 
 .education{
     background-color: white;
-    width: 28vw;
+    width: 80vw;
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
 }
 
 footer{
     text-align: center;
     margin-top: 20px;
+    background-color: white;
+    padding: 12px;
 }
+
+@media only screen and (min-width: 680px){
+    header{
+        border: 5px solid #414535;
+        margin: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+        border-left: 0;
+        border-right: 0;
+    
+    }
+    h1{
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .myInfo{
+        text-align: left;
+    }
+    
+/****** first Column ****/
+    .firstColumn{
+        width: 65vw;    
+    }  
+    .secondColumn{
+        width: 35vw;
+    } 
+    .content{
+        display:flex;
+        flex-direction:row;
+        text-align: left;
+    }
+    .introduction{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .pic{
+        width: 500px;
+        height: 380px;
+    }
+    .skills{
+        width: 30vw;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .education{
+        width: 30vw;
+        text-align: left;
+    }
+    
+} 
