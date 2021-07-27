@@ -36,7 +36,7 @@ header{
 } 
 
 h1{
-    font-family: Helvetica sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 35px;
     color: #414535;
     text-align: center;
@@ -46,7 +46,7 @@ h1{
     text-align: center;
 }
 h2{
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
 }
 
@@ -55,14 +55,14 @@ h3{
 }
 
 .location{
-    font-family: Helvetica;
+    font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
 p{
-    font-family: Helvetica;
+    font-family: 'Roboto Slab', serif;
 }
 .email{
-    font-family: Helvetica;
+    font-family: 'Roboto Slab', serif;
     text-decoration: none;
     color: #618985;
 }
@@ -357,7 +357,7 @@ footer{
         margin: 50px;
     }
     h1{
-        font-family: Helvetica sans-serif;
+        font-family: 'Roboto Slab', serif;
         font-size: 55px;
         color: #414535;
         text-align: left;
