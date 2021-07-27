@@ -243,6 +243,7 @@ footer{
     header{
         border: 5px solid #414535;
         margin: 8px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
