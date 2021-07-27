@@ -223,6 +223,10 @@ a.prev, a.next{
     text-align: left;
 }
 
+.school{
+    padding: 15px;
+}
+
 footer{
     text-align: center;
     margin-top: 20px;
