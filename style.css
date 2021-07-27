@@ -202,13 +202,14 @@ a.prev, a.next{
 /****** second column ****/
 .skills{
     background-color: white;
-    width: 98vw;
+    width: 99vw;
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .bar{
@@ -219,7 +220,7 @@ a.prev, a.next{
 
 .education{
     background-color: white;
-    width: 98vw;
+    width: 99vw;
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
@@ -301,6 +302,7 @@ footer{
         border-radius: 10px;
         font-size: 20px;
         margin-bottom: 60px;
+        margin-top: 0px;
     }
     .education{
         width: 30vw;
