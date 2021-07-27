@@ -17,8 +17,6 @@ header{
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    border-left: 0;
-    border-right: 0;
     padding: 20px;
 
 }
@@ -105,7 +103,6 @@ i{
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
-    margin-left: 20px;
 }
 
 .project{
@@ -114,8 +111,16 @@ i{
     justify-content: center;
     align-items: center;
 }
+.fullStack{
+    text-align:center;
+    font-size: 20px;
+}
 
 .projectName{
+    text-align: center;
+}
+
+.arrows{
     text-align: center;
 }
 .pic{
@@ -274,6 +279,10 @@ footer{
         border-radius: 10px;
         font-size: 20px;
         margin-bottom: 20px;
+        margin-left: 20px;
+        
+    }
+    .projects{
         margin-left: 20px;
     }
     .pic{
