@@ -52,10 +52,10 @@ p{
     color: #618985;
 }
 .headShot{
-    width: 250px;
+    width: 210px;
     border-radius: 50%;
-    margin: 30px;
-    height: 280px;
+    margin: 20px;
+    height: 250px;
 }
 
 .myInfo{
@@ -256,6 +256,11 @@ footer{
     h1{
         font-size: 45px;
         text-align: left;
+    }
+    .headShot{
+        width: 250px;
+        height: 280px;
+        margin: 30px;
     }
 
     .myInfo{
