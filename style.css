@@ -349,3 +349,23 @@ footer{
         margin-left: 0;
     }
 } 
+
+@media only screen and (min-width: 1000px){
+    .headShot{
+        width: 350px;
+        height: 380px;
+        margin: 50px;
+    }
+    h1{
+        font-family: Helvetica sans-serif;
+        font-size: 55px;
+        color: #414535;
+        text-align: left;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .location{
+        font-size: 25px;
+    }
+}
